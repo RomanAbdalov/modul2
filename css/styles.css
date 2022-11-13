@@ -18,7 +18,7 @@
  body {
     background-color:var(--primary-bg-color) ;
     color:var(--primery-text-color);
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     }
     .list {
         list-style: none;
@@ -100,6 +100,7 @@
         font-size: 16px;
         line-height: 1.875;
         cursor: pointer;
+        border: transparent;
        }
        .button:hover,
        .button:focus {
