@@ -6,40 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title lang="en">Web Studio</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,700;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header>
+    <header class="head">
+        <div class="container main-nav">
         <a href="/index.html" lang="en" class="logo"><span class="logo-web">Web</span>Studio</a>
         <ul class="site-nav list">
-            <li><a href="index.html" class="link">Студія</a></li>
-            <li><a href="#" class="link">Портфоліо</a></li>
-            <li><a href="#" class="link">Контакти</a></li>
+            <li class="item"><a href="index.html" class="link">Студія</a></li>
+            <li class="item"><a href="#" class="link">Портфоліо</a></li>
+            <li class="item"><a href="#" class="link">Контакти</a></li>
         </ul>
         <ul class="site-tel list">
-            <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-            <li> <a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+            <li class="item"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+            <li class="item"> <a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
          </ul>
+        </div>
          </header>
          <main>
-            <section>
+            <section class="section">
+                <div class="test-container">
                 <h1 hidden>Кнопки і Фото</h1>
-                <ul class="button-list list">
-                    <li><button type="button" class="button list">Усі</button></li>
-                    <li><button type="button" class="button list">Веб-сайти</button></li>
-                    <li><button type="button" class="button list">Додатки</button></li>
-                    <li><button type="button" class="button list">Дизайн</button></li>
-                    <li><button type="button" class="button list">Маркетинг</button></li>
+                <ul class="button-list list flex-container">
+                    <li class="flex-button" ><button type="button" class="button list">Усі</button></li>
+                    <li class="flex-button"><button type="button" class="button list">Веб-сайти</button></li>
+                    <li class="flex-button"><button type="button" class="button list">Додатки</button></li>
+                    <li class="flex-button"><button type="button" class="button list">Дизайн</button></li>
+                    <li class="flex-button"><button type="button" class="button list">Маркетинг</button></li>
                 </ul>
-                <ul class="foto-list list">
-                    <li>
+                <ul class="foto-list list flex-container">
+                    <li class="flex-element">
                         <a href="#" class="link"><img src="./img/foto1-min.jpg" width="370" alt="Технокряк">
                             <h2 class="foto-item">Технокряк</h2>
                             <p class="foto-text">Веб-сайт</p>
                         </a>
                         
                     </li>
-                    <li>
+                    <li class="flex-element">
                         <a href="#" class="link">
                             <img src="./img/foto2-min.jpg" width="370" alt="Постер New Orlean vs Golden State">
                         <h2 class="foto-item">Постер New Orlean vs Golden State</h2>
@@ -47,7 +51,7 @@
                         </a>
                         
                     </li>
-                    <li>
+                    <li class="flex-element">
                         <a href="#" class="link">
                             <img src="./img/foto3-min.jpg" width="370" alt="Ресторан Seafood">
                         <h2 class="foto-item">Ресторан Seafood</h2>
@@ -55,7 +59,7 @@
                         </a>
                         
                     </li>
-                    <li>
+                    <li class="flex-element">
                         <a href="#" class="link">
                             <img src="./img/foto4-min.jpg" width="370" alt="Проєкт Prime">
                         <h2 class="foto-item">Проєкт Prime</h2>
@@ -63,14 +67,14 @@
                         </a>
                         
                     </li>
-                    <li>
+                    <li class="flex-element">
                         <a href="#" class="link"><img src="./img/foto5-min.jpg" width="370" alt="Проєкт Boxes">
                             <h2 class="foto-item">Проєкт Boxes</h2>
                             <p class="foto-text">Додаток</p>
                         </a>
                         
                     </li>
-                    <li>
+                    <li class="flex-element">
                         <a href="#" class="link">
                             <img src="./img/foto6-min.jpg" width="370" alt="Inspiration has no Borders">
                         <h2 class="foto-item">Inspiration has no Borders</h2>
@@ -78,13 +82,13 @@
                         </a>
                         
                     </li>
-                    <li>
+                    <li class="flex-element">
                         <a href="#" class="link"><img src="./img/foto7-min.jpg" width="370" alt="Видання Limited Edition">
                             <h2 class="foto-item">Видання Limited Edition</h2>
                             <p class="foto-text">Дизайн</p></a>
                         
                     </li>
-                    <li>
+                    <li class="flex-element">
                         <a href="#" class="link">
                             <img src="./img/foto8-min.jpg" width="370" alt="">
                         <h2 class="foto-item">Проєкт LAB</h2>
@@ -92,7 +96,7 @@
                         </a>
                         
                     </li>
-                    <li>
+                    <li class="flex-element">
                         <a href="#" class="link">
                             <img src="./img/foto9-min.jpg" width="370" alt="Growing Business">
                         <h2 class="foto-item">Growing Business</h2>
@@ -101,6 +105,7 @@
                         
                     </li>
                 </ul>
+            </div>
             </section>
          </main>
          <footer class="footer">
