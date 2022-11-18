@@ -178,6 +178,10 @@
         color: var(--primary-bg-color);
         background-color: var(--accent-text-color);
        }
+       .button-portfolio {
+        display: flex;
+        justify-content: center;
+       }
 
        /* ----------Sectoin----------- */
     /* section */
@@ -189,7 +193,6 @@
         background-color: #F5F4FA;
     }
     .section-title {
-        padding-top: 94px;
         padding-bottom: 50px;
         font-weight: 700;
         font-size: 36px;
@@ -210,7 +213,7 @@
         color:var(--title-text-color) ;
     }
     .feature-list {
-        margin-top: 94px;
+        
         display: flex;
     }
     .title {
@@ -248,16 +251,17 @@
     
     /* ----------Team----------- */
     .team-list {
-        display: flex;
-        padding: 50px 0px 94px 0px;
-        
+        display: flex;    
+    }
+    .team-border {
+
     }
     .team-element {
         width: 270px;
         background-color: var(--primary-bg-color);
         margin-right: 30px;
         margin-bottom: 30px;
-        border: 1px solid;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         
     }
     .team-item {
@@ -331,13 +335,18 @@
     border-bottom: 1px solid #ececec;
  }
  .foto-item {
+margin-left: 24px;
+margin-top: 20px;
+margin-bottom: 4px;
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 color: var(--title-text-color);
  }
- .foto-text {
+ .foto-text { 
+ margin-left: 24px;
+margin-bottom: 20px;
 font-size: 16px;
 line-height: 1.875;
 letter-spacing: 0.03em;
